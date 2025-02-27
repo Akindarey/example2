@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Akindare Akintayo Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hello world</h1>
+    <h1>Project</h1> 
+    <!-- Navigation Bar -->
+<header>
+    <nav>
+        <ul class="nav bar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+    <!-- Home Section-->
+     <section id="home">
+        <img src="headshot.jpg" alt="Akindare Akintayo Headshot" class="headshot">
+        <h1>Hi, I'm Akindare Akintayo</h1>
+        <p>A front-end developer and UX/UI designer passionate about creating user-centric designs</p>
+     </section>
+
+
+     <!--About Me Section-->
+     <section id="about-me">
+        <h2>About Me</h2>
+        <p>I am a front-end developer and UX/UI designer with eight years of experience creating user-centri websites and applications. I am passionate about mentoring aspiring tech gurus and helping them build great and strong portfolios that showcase their skills and creativity.</p>
+        <h3>Skills</h3>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>React</li>
+            <li>Figma</li>
+        </ul>
+        <a href="resume.pdf"
+     </section>
+
+
+     <!-- Projects Section-->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-item">
+                <div class="project-image"></div>
+                <h3>Project 1</h3>
+                <p>Short description of the project</p>
+        </div>
+        <div class="project-item">
+            div class="project-image"></div>
+            <h3>Project 3</h3>
+            <p>Short description of the project</p>
+        </div>
+    </div>
+      </section>
+
+      <!--Contact Section-->
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="#"method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message"></label>
+            <textarea id="message" name="message" rows="5 required"></textarea>
+            <button type="submit"></button>
+        </form>
+      </section>
 </body>
 </html>
